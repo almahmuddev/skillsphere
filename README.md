@@ -4,8 +4,8 @@ A modern online learning platform where users can explore courses, watch lessons
 
 ## 🔗 Links
 
-- **Live URL:** https://your-site.vercel.app ← update this after deployment
-- **GitHub:** https://github.com/your-username/skillsphere ← update this
+- **Live URL:** 
+- **GitHub:** 
 
 ## ✨ Key Features
 
@@ -45,39 +45,6 @@ A modern online learning platform where users can explore courses, watch lessons
 "swiper":          "^12.1.4"
 ```
 
-## 🚀 Getting Started
-
-### 1. Clone and install
-
-```bash
-git clone https://github.com/your-username/skillsphere.git
-cd skillsphere
-npm install
-```
-
-### 2. Set up environment variables
-
-Copy `.env.example` to `.env.local` and fill in your values:
-
-```bash
-cp .env.example .env.local
-```
-
-Required variables:
-
-```env
-MONGODB_URI=mongodb+srv://username:password@cluster0.xxxxx.mongodb.net/?retryWrites=true&w=majority
-BETTER_AUTH_SECRET=any_long_random_string_here
-BETTER_AUTH_URL=http://localhost:3000
-NEXT_PUBLIC_APP_URL=http://localhost:3000
-```
-
-### 3. Run locally
-
-```bash
-npm run dev
-```
-
 ### 4. Seed the database
 
 Visit this URL once after starting the server:
@@ -88,13 +55,6 @@ http://localhost:3000/api/seed
 
 This seeds 8 courses into MongoDB. Only needs to be done once.
 
-## 🌐 Deployment (Vercel)
-
-1. Push code to GitHub
-2. Import repo on [vercel.com](https://vercel.com)
-3. Add all environment variables (update URLs to your live domain)
-4. Deploy
-5. Visit `https://your-site.vercel.app/api/seed` to seed the live database
 
 ## 📁 Project Structure
 
